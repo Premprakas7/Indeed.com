@@ -1,49 +1,55 @@
-<h1>Everhour.com Clone</h1>
+# Indeed (Clone)
+-----
+### For Job seraching and providing Purpose*
+Project: Make a clone of Indeed website.
 
+Original-Website: https://in.indeed.com/
 
+Cloned-Website: https://indeed-ten.vercel.app/
 
-<h3>What is Indeed.com -</h3>
-<p>"Indeed is ani worldwide employment website for job listings launched in November 2004. It is a subsidiary of Japan's Recruit Co. Ltd. and is co-headquartered in Austin, Texas, and Stamford, Connecticut, with additional offices around the world."</p>
+Indeed is the #1 job site in the world1 with over 250M unique visitors every month. Indeed strives to put job seekers first, giving them free access to search for jobs, post resumes, and research companies.
 
-</hr>
+In this project we have tried to manipulate React, styling using css, chakra and tried to make website more dynamic. With our efforts and the technology stack, that we have learned till now in Unit-5 in the masai school.
 
+# Technology Stack Used 🌟
+* HTML
+* CSS
+* JavaScript
+* React
+* Redux
+* Chakra
 
+# Snapshots 📷
+* Find Jobs page
 
-<h1>Some visuals of our project </h1>
- </hr>
- <h3>Landing page: </h3>
- <img src="https://user-images.githubusercontent.com/101813593/190867318-f317c582-659a-4787-899e-162e1dfaef53.png" alt="Landing page"/>
+![Find Jobs page](https://github.com/kavish729/Indeed---Clone/blob/master/public/Findjobs.PNG?raw=true)
 
-  <h3>Pricing page: </h3>
-<img src="https://user-images.githubusercontent.com/101813593/190867388-61e0b4b1-e9e9-4b35-8e80-aec7e6a9f0a7.png" alt="Pricing page" />
-  <h3>Demo page: </h3>
-<img src="https://user-images.githubusercontent.com/101813593/190867422-d45eccf9-18a3-4b68-9214-2fb739f344b7.png" alt="Demo page" />
-  <h3>Signup page: </h3>
-<img src="https://user-images.githubusercontent.com/101813593/190867499-ccf32a4c-87b7-4614-9923-ae91035e6a7e.png" alt="Signup page" />
+* Company Review page
 
-  <h3>Login page: </h3>
-<img src="https://user-images.githubusercontent.com/101813593/190867529-79905a97-8827-46cb-8c96-b8405801b3ed.png" alt="Login page" />
-  <h3>Dashboard page: </h3>
-<img src="https://user-images.githubusercontent.com/101813593/190910505-e85354ef-bbc5-4808-b0f6-bf1dabb39df0.png" alt="Dashboard page" />
+![Company Review page](https://github.com/kavish729/Indeed---Clone/blob/master/public/companyreview.PNG?raw=true)
 
+* Salary Guide page
 
-  <h3>Footer: </h3>
-<img src="https://user-images.githubusercontent.com/101813593/187067413-b3f2123b-fbb5-4644-9132-8b9d0a0a7594.PNG" alt="Footer" />
+![Salary Guide page](https://github.com/kavish729/Indeed---Clone/blob/master/public/Salaryguide.PNG?raw=true)
 
+* Help Center page
 
+![Help Center page](https://github.com/kavish729/Indeed---Clone/blob/master/public/Helpcenter.PNG?raw=true)
 
-<h1>View Deployment</h1>
-</hr>
-<h4>Checkout live website :</h4>
-</hr>
+* Sign-up page
 
+![Sign-up page](https://github.com/kavish729/Indeed---Clone/blob/master/public/Signup.PNG?raw=true)
 
+* Sign-in page
 
-  
+![Sign-in page](https://github.com/kavish729/Indeed---Clone/blob/master/public/Signin.PNG?raw=true)
 
+## How to run the Project
+* Clone the repository
+* Write npm start command.
 
-</hr>
-<h1>Tech Stack </h1>
-<h3>React,Redux, React-router-dom, Chakara UI, Git,  HTML5, CSS3, JavaScript </h3>
+## End Notes 📑
+In this project we were tried to achieve a near to perfect clone of the original website as much as possible. This entire journey of this construct week has given us experiences and we have learned lots of things by applying to the real website and it gave us a lot of confidence. Most of the features are added and functionality of the website is achieved.
 
-
+## Limitations
+All pages are not responsive yet , those pages are might not be properly visible on small screen devices.
