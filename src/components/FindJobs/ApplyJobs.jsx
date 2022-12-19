@@ -23,7 +23,7 @@ alert("you applied successfully ")
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:8080/student", {
+    axios.post("https://backend-ren-demo.onrender.com/student", {
       name: formData.name,
       email: formData.email,
       phone: formData.phone,
