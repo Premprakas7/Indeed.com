@@ -5,7 +5,7 @@ Project: Make a clone of Indeed website.
 
 Original-Website: https://in.indeed.com/
 
-Cloned-Website: 
+Cloned-Website:https://indeed-com-seven.vercel.app/ 
 
 Indeed is the #1 job site in the world1 with over 250M unique visitors every month. Indeed strives to put job seekers first, giving them free access to search for jobs, post resumes, and research companies.
 
@@ -19,7 +19,7 @@ In this project we have tried to manipulate React, styling using css, chakra and
 * Redux
 * Chakra
 
-# Pages 📷
+# Pages 
 * Find Jobs page
 * Company Review page
 * Salary Guide page
