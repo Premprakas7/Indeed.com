@@ -15,7 +15,8 @@ const JobDetails = () => {
       dispatch(getSingleJobs(id));
     }
   }, [dispatch, id, details?.length]);
-  console.log("id", id);
+
+  
 
   console.log("details single", details);
   return (
@@ -66,8 +67,7 @@ const JobDetails = () => {
             </Flex>
             <Link to='/applyjobs'><Button margin='1rem 1rem 1rem 1rem' colorScheme='blue'>Apply Now</Button></Link>
             <Box fontSize=".8rem" color="gray" margin="1rem 1rem 1rem 1rem">
-              {/* {Parser(details.jobDescription)} */}
-              
+              {Parser(details.jobDescription)}
             </Box>
           </Box>
         </Box>
