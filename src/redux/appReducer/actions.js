@@ -14,7 +14,7 @@ import axios from 'axios';
 export const getcompanyApi = () => (dispatch) => {
     dispatch({type:GET_COMPANY_REQUESET});
     axios
-    .get('https://backend-ren-demo.onrender.com/companies')
+    .get('https://job-list-l8rx.onrender.com/companies')
     .then((response) => {
         console.log(response.data);
         dispatch({type:GET_COMPANY_SUCCESS,payload:response.data});
@@ -26,7 +26,7 @@ export const getcompanyApi = () => (dispatch) => {
 
 export const getJobs = () => (dispatch) => {
   dispatch({type:GET_JOBS_REQUESET});
-  axios.get('https://backend-ren-demo.onrender.com/jobs')
+  axios.get('https://job-list-l8rx.onrender.com/jobs')
   .then((response) => {
       dispatch({type:GET_JOBS_SUCCESS,payload:response.data});
     })
@@ -37,7 +37,7 @@ export const getJobs = () => (dispatch) => {
 
 export const getSingleJobs = (id) => (dispatch) => {
   dispatch({type:GET_SINGLE_JOBS_REQUESET});
-  axios.get(`https://backend-ren-demo.onrender.com/jobs/${id}`)
+  axios.get(`https://job-list-l8rx.onrender.com/jobs/${id}`)
   .then((response) => {
       dispatch({type:GET_SINGLE_JOBS_SUCCESS,payload:response.data});
     })
